@@ -1,0 +1,10 @@
+Age,Gender,Total Income,Expenses
+30,Male,50000,"{'utilities': 200, 'entertainment': 300}"
+KING,55,Male,5334577,"{'utilities': 0, 'entertainment': '235', 'school_fees': '21', 'shopping': '32', 'healthcare': '25'}"
+JOY AGU,43,Female,4613778358,"{'utilities': 0, 'entertainment': '466', 'school_fees': '464', 'shopping': '46', 'healthcare': '643'}"
+KING KONG,54,Male,575488888,"{'utilities': 0, 'entertainment': '356', 'school_fees': '61', 'shopping': '166', 'healthcare': '616'}"
+CHRIS GUY,55,Male,3275239,"{'utilities': 0, 'entertainment': '34', 'school_fees': '3', 'shopping': '44', 'healthcare': '4321'}"
+PATTY  KAMBEL,43,Female,4361377,"{'utilities': 0, 'entertainment': '325', 'school_fees': '523', 'shopping': '5', 'healthcare': '5'}"
+ANDRIE MOORE,33,Male,32567714,"{'utilities': 0, 'entertainment': '45', 'school_fees': '46', 'shopping': '166', 'healthcare': '1346'}"
+FRANK AGU,23,Male,459846,"{'utilities': 0, 'entertainment': '4', 'school_fees': '45', 'shopping': '45', 'healthcare': '45'}"
+VIVIAN PAUL,45,Female,43617588,"{'utilities': 0, 'entertainment': '646', 'school_fees': '436', 'shopping': '4316', 'healthcare': '341'}"
