@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Data Collection </title>
+    <title>User Data Collection</title>
     <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
     <!--<link rel="stylesheet" href="static/style.css">-->
 </head>
 <body>
-    <h1>User Data Collection</h1>
+    <h1>This App was developed by Kingsley Edionwe for academic purpose only</h1>
+    <h2>User Data Collection</h2>
+    <hr>
+    <div class="content">
     <form action="/submit" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br>
@@ -27,27 +30,27 @@
         <input type="number" id="total_income" name="total_income" required><br>
 
         <h3>Expenses</h3>
-        <label for="utilities">Utilities:</label>
-        <input type="checkbox" id="utilities" name="utilities" value="0">
-        <input type="number" name="utilities_amount" placeholder="Amount"><br>
-
-        <label for="entertainment">Entertainment:</label>
-        <input type="checkbox" id="entertainment" name="entertainment" value="0">
-        <input type="number" name="entertainment_amount" placeholder="Amount"><br>
-
-        <label for="school_fees">School Fees:</label>
-        <input type="checkbox" id="school_fees" name="school_fees" value="0">
-        <input type="number" name="school_fees_amount" placeholder="Amount"><br>
-
-        <label for="shopping">Shopping:</label>
-        <input type="checkbox" id="shopping" name="shopping" value="0">
-        <input type="number" name="shopping_amount" placeholder="Amount"><br>
-
-        <label for="healthcare">Healthcare:</label>
-        <input type="checkbox" id="healthcare" name="healthcare" value="0">
-        <input type="number" name="healthcare_amount" placeholder="Amount"><br>
-
+        
+        <label>Utilities:</label><br>
+        <input type="number" name="utilities" placeholder="Amount">
+        <input type="checkbox" id="utilities"><br>
+        <label>Entertainment:</label><br>
+        <input type="number" name="entertainment" placeholder="Amount">
+        <input type="checkbox" id="entertainment"><br>
+        <label>School Fees:</label><br>
+        <input type="number" name="school_fees" placeholder="Amount">
+        <input type="checkbox" id="school_fee"><br>
+        <label>Shopping:</label><br>
+        <input type="number" name="shopping" placeholder="Amount">
+        <input type="checkbox" id="shopping"><br>
+        <label>Healthcare:</label><br>
+        <input type="number" name="healthcare" placeholder="Amount">
+        <input type="checkbox" id="healthcare"><br>
+    <p>
         <input type="submit" value="Submit">
+    </p>
+        
     </form>
+</div>
 </body>
 </html>
