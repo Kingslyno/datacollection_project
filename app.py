@@ -58,8 +58,11 @@ def submit():
     user = User(name, age, gender, total_income, expenses)
     collection.insert_one(user.__dict__)
     user.save_to_csv()
-
-    return redirect('/')
+     
+    return redirect('/successful')
+@app.route('/success')
+def success():
+    return "Data submitted successfully!"
 
 if __name__ == '__main__':
     app.run(debug=True)
