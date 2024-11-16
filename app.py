@@ -1,16 +1,16 @@
 from flask import Flask, render_template, url_for, request, redirect
 from flask_cors import CORS
-from pymongo import MongoClient
+import  pymongo
 import csv
 import pandas as pd
 
-app = Flask(__name__)
-CORS(app)
-
+connection_url = 'mongodb+srv://mydbuser:<Edison123>@cluster0.tdrd7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 app = Flask(__name__, template_folder='views')
+client = pymongo.MongoClient(connection_url)
+
 
 # MongoDB setup
-client = MongoClient("mongodb://localhost:27017/")
+client = client.get_database("data_collection")
 db = client['user_data']
 collection = db['users']
 
