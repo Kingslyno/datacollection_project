@@ -1,7 +1,11 @@
 from flask import Flask, render_template, url_for, request, redirect
+from flask_cors import CORS
 from pymongo import MongoClient
 import csv
 import pandas as pd
+
+app = Flask(__name__)
+CORS(app)
 
 app = Flask(__name__, template_folder='views')
 
