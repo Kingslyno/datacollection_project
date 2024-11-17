@@ -4,7 +4,7 @@ import  pymongo
 import csv
 import pandas as pd
 
-#DB Connection
+#DB Connectiing
 connection_url = 'mongodb+srv://mydbuser:<Edison123>@cluster0.tdrd7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 app = Flask(__name__, template_folder='views')
 client = pymongo.MongoClient(connection_url)
