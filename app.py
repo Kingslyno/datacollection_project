@@ -3,6 +3,10 @@ from flask_cors import CORS
 import  pymongo
 import csv
 import pandas as pd
+from typing import Optional
+from fastapi import FastAPI
+
+app = FastAPI()
 
 #DB Connectiing
 connection_url = 'mongodb+srv://mydbuser:<Edison123>@cluster0.tdrd7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
