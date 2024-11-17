@@ -7,6 +7,16 @@ from typing import Optional
 from fastapi import FastAPI
 
 app = FastAPI()
+@app.on_event("startup")
+async def startup():
+    # Perform startup tasks here
+    print("Startup complete")
+
+@app.on_event("shutdown")
+async def shutdown():
+    # Perform shutdown tasks here
+    print("Shutdown complete")
+
 
 #DB Connectiing
 connection_url = 'mongodb+srv://mydbuser:<Edison123>@cluster0.tdrd7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
