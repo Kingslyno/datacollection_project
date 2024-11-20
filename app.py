@@ -9,12 +9,10 @@ connection_url = 'mongodb+srv://mydbuser:<Edison123>@cluster0.tdrd7.mongodb.net/
 app = Flask(__name__, template_folder='views')
 client = pymongo.MongoClient(connection_url)
 
-
 # MongoDB setup
 client = client.get_database("data_collection")
 db = client['user_data']
 collection = db['users']
-
 
 class User:
     def __init__(self, name, age, gender, total_income, expenses):
@@ -64,7 +62,7 @@ def submit():
     collection.insert_one(user.__dict__)
     user.save_to_csv()
 
-    return redirect('/successful')
+    return redirect('/')
 
 if __name__ == '__main__':
     app.run(debug=True)
