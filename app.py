@@ -64,7 +64,7 @@ def submit():
     collection.insert_one(user.__dict__)
     user.save_to_csv()
 
-    return redirect('/')
+    return redirect('/successful')
 
 if __name__ == '__main__':
     app.run(debug=True)
