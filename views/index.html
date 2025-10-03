@@ -3,55 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Data Collection</title>
-    
-    <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}"/>
-    <!--<link rel="stylesheet" href="static/CSS/style.css">-->
+    <title>Air and Sea Freight Services</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("pictures/Air"); 
+            background-size: cover;
+            color: white;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>This App was developed by Kingsley Edionwe for academic purpose only</h1>
-    <h2>User Data Collection</h2>
-    <hr>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
     <div class="content">
-    <form action="/submit" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br>
-
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" required><br>
-
-        <label for="gender">Gender:</label>
-        <select id="gender" name="gender" required>
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            <option value="Other">Other</option>
-        </select><br>
-
-        <label for="total_income">Total Income:</label>
-        <input type="number" id="total_income" name="total_income" required><br>
-
-        <h3>Expenses</h3>
-        
-        <label>Utilities:</label><br>
-        <input type="number" name="utilities" placeholder="Amount">
-        <input type="checkbox" id="utilities"><br>
-        <label>Entertainment:</label><br>
-        <input type="number" name="entertainment" placeholder="Amount">
-        <input type="checkbox" id="entertainment"><br>
-        <label>School Fees:</label><br>
-        <input type="number" name="school_fees" placeholder="Amount">
-        <input type="checkbox" id="school_fee"><br>
-        <label>Shopping:</label><br>
-        <input type="number" name="shopping" placeholder="Amount">
-        <input type="checkbox" id="shopping"><br>
-        <label>Healthcare:</label><br>
-        <input type="number" name="healthcare" placeholder="Amount">
-        <input type="checkbox" id="healthcare"><br>
-    <p>
-        <input type="submit" value="Submit">
-    </p>
-        
-    </form>
-</div>
+        <h1>Welcome to Our Air and Sea Freight Services</h1>
+        <p>Your trusted partner in logistics and clearing services.</p>
+    </div>
 </body>
 </html>
