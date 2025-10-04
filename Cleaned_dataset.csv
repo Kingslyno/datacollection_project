@@ -1,0 +1,18 @@
+Customer_ID,Customer_Name,Last Name,Address,Email Address,Book ID,Book_Title,Author Full Name,Publication Date,Quantity_Available,Order ID,Customer ID.1,Book_ID,Date Purchased,Amount_Paid,Quantity_Sold,Order Status,Shipping Address,Amount Paid per Unit
+C001,Peter,Smith,123 Main St,psmith@yahoo.com,SN1001,The Great Gatsby,Scott Fitzgerald,04/10/1925,10,OR100001,C001,SN1001,05/01/2023,24.99,1,Shipped,7 Marlin Cresent,24.99
+C002,Prince,Johnson,456 Elm St,prince.johnson@gmail.com,SN1002,Things fall apart,Chinua Achebe,07/11/1960,5,OR100002,C002,SN1002,18/02/2023,19.99,2,Delivered,4 Belmont drive,9.995
+C003,Robert,Williams,789 Oak Ave,williamsr@gmail.com,SN1003,Oliver twist,Charles Dickens,06/08/1949,15,OR100003,C003,SN1003,10/03/2023,12.99,1,Pending,78 Nelson Avenue,12.99
+C004,David,Brown,234 Pine St,davidsbrown@gmail.com,SN1004,Pride and Prejudice,Jane Austen,28/01/1813,8,OR100004,C004,SN1004,22/04/2023,39.99,3,Shipped,9 Andrier drive,13.33
+C005,Jennifer,Davis,234 Pine St,davidsj@gmail.com,SN1005,The Catcher in the Rye,Jerome David Salinger,07/16/1951,8,OR100005,C005,SN1005,07/05/2023,24.99,1,Delivered,67 Maple Rd,24.99
+C006,Sarah,Davids,567 Maple Rd,davidsj@gmail.com,SN1006,To Kill a Mockingbird,Harper Lee,07/11/1960,3,OR100006,C006,SN1006,13/06/2023,19.99,2,Shipped,90 Oak drive,9.995
+C007,Mark,Miller,890 Oak Ave,miller_mark@yahoo.com,SN1007,Harry Potter and the Philosopher's Stone,Joanne Rowling,07/11/1960,20,OR100007,C007,SN1007,28/07/2023,12.99,1,Delivered,89 Cambridge drive,12.99
+C008,Jessica,Anderson,123 Main St,jessica@yahoo,SN1008,The Lord of the Rings,John Ronald Reuel Tolkien,07/29/1954,12,OR100008,C008,SN1008,19/08/2023,39.99,3,Pending,03 Andrews st,13.33
+C009,Michael,Wilson,432 Elm St,wilsonmich@pic.uk,SN1009,Romeo and Juliet,William Shakespeare,01/01/1579,5,OR100009,C009,SN1009,02/09/2023,24.99,1,Shipped,23 Oaukridge square,24.99
+C010,Emily,Taylor,789 Oak Ave,taylor@abc.edu,SN1010,The Hobbit,John Ronald Reuel Tolkien,09/21/1937,7,OR100010,C010,SN1010,14/10/2023,19.99,2,Delivered,17 Pineland St,9.995
+C011,Samantha,Nicholas,567 Maple Rd,samanthan@gmail.com,SN1011,Coming of the Dry Season,Charles Mungoshi,07/16/1981,10,OR100011,C011,SN1011,05/04/2023,12.99,1,Shipped,8 Unki drive,12.99
+C012,Daniel,Walker,890 Oak Ave,walker_daniel@gmail.com,SN1012,The Lion and the Jewel,Wole Soyinka,06/26/1962,2,OR100012,C012,SN1012,17/05/2023,39.99,3,Delivered,17 Beijing drive,13.33
+C013,Rebecca,Green,890 Oak Ave,greenr@yahoo.com,SN1013,Pride and Prejudice,Jane Austen,28/01/1813,4,OR100013,C013,SN1013,30/06/2023,24.99,1,Pending,56 Lagos square,24.99
+C014,Nicholas,Turner,234 Pine St,nicholast@wvy.ac.na,SN1014,The Grapes of Wrath,John Steinbeck ,07/29/1939,4,OR100014,C014,SN1014,25/07/2023,19.99,2,Shipped,Corner Jill and Jik,9.995
+C015,Olivia,Clark,432 Elm St,nicholast@wvy.ac.na,SN1015, Pang-Ning Tan,Introduction to Data Mining ,06/28/2011,6,OR100015,C015,SN1015,08/08/2023,12.99,1,Delivered,795 Oliver st,12.99
+C016,Roland,Stephens,789 Oak Ave,roland@gmail.com,SN1016,Brave New World,Aldous Huxley,04/10/1932,8,OR100016,C016,SN1016,19/09/2023,39,1,Delivered,795 Oliver st,39
+C006,Sarah,Davids,567 Maple Rd,roland@gmail.com,SN1006,To Kill a Mockingbird,Harper Lee,07/11/1960,3,OR100016,C016,SN1016,19/09/2023,39,1,Delivered,795 Oliver st,39

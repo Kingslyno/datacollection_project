@@ -1,53 +1,29 @@
+# HTML front end template (to be saved as templates/index.html)
+html_code = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air and Sea Freight Services</title>
+    <title>Business Analytics Model</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-image: url("pictures/Air"); 
-            background-size: cover;
-            color: white;
-        }
-        header {
-            background-color: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            margin: 0;
-            padding: 0;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .content {
-            padding: 50px;
-            text-align: center;
-        }
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f9; }
+        h1 { color: #333; }
+        .container { display: flex; flex-wrap: wrap; gap: 40px; }
+        .chart { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        img { max-width: 100%; height: auto; }
     </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About Us</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact Us</a>
-        </nav>
-    </header>
-    <div class="content">
-        <h1>Welcome to Our Air and Sea Freight Services</h1>
-        <p>Your trusted partner in logistics and clearing services.</p>
+    <h1>Business Analytics Dashboard</h1>
+    <div class="container">
+        <div class="chart">
+            <h2>Top 10 Books by Quantity Sold</h2>
+            <img src="data:image/png;base64,{{ books_img }}" alt="Books Sold Chart">
+        </div>
+        <div class="chart">
+            <h2>Top 10 Customers by Books Purchased</h2>
+            <img src="data:image/png;base64,{{ customers_img }}" alt="Customer Ranking Chart">
+        </div>
     </div>
 </body>
 </html>
